@@ -72,5 +72,17 @@ print("Values of X1 and X2 respectively :",classifier.coef_)
 print("Value of W0 :",classifier.intercept_)
 
 
+from sklearn.metrics import accuracy_score
+
+# Calculate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+
+# Print accuracy
+print("Accuracy:", accuracy)
+
+
+
+
+
 
 
